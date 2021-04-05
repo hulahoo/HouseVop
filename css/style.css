@@ -1,0 +1,175 @@
+/* Добавляем логотип в header, так как лого в макете находиться только в одном целом блоке*/
+* {
+    box-sizing: border-box;
+}
+
+body { 
+    color: white;
+    margin: 0;
+    background: #242B33;
+}
+
+
+.header {
+    background: url('../images/Rectangle.jpg');
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar__menu {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar__left {
+    display: flex;
+    justify-content: left;
+}
+
+.logo {
+    background: url('../images/first-screen__logo.svg');
+    width: 134px;
+    height: 66px;
+}
+
+.navbar__item {
+    margin-right: 15px;
+}
+
+.header__logo {
+    margin-top: 260px;
+}
+
+.header__welcome-title {
+    font-size: 48px;
+    text-align: center;
+    color: #D4C17F;
+}
+
+.header__mouse {
+    background: url('../images/mouse.svg');
+    width: 40px;
+    height: 40px;
+    margin: 150px auto;
+}
+
+
+.header__contacts{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.places {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 150px;
+}
+
+.body__logo {
+    text-align: center;
+    margin: 0px 40px;
+    background-image: url('../images/II.svg');
+}
+
+
+#second__container-title {
+    margin-top: 30%;
+}
+
+.container h2 {
+    color: #D4C17F;
+    font-size: 36px;
+}
+
+.image__place{
+    background-image: url('../images/II.svg');
+}
+
+
+.image__places img{
+    max-width: 450px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 25px 0 0;
+
+}
+
+.image__places-logo, .image__places-logo-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.picture-item{
+    position: relative;
+}
+
+.picture-item span{
+    position: absolute;
+    bottom: 50px;
+    left: 10px;
+}
+
+
+
+.footer{
+    background: url('../images/background-image.jpg') no-repeat;
+    background-size: cover;
+    min-height: 560px;
+    background-position: top  center;
+    padding-top: 170px;
+}
+
+
+.inner__container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer__text {
+    max-width: 750px;
+}
+
+.footer__text p{
+    font-size: 16px;
+    line-height: 24px;
+}   
+
+.footer__button{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__button p{
+    color: #e7e7e7;
+    text-align: center;
+    font-size: 13px;
+}
+
+.footer__button-input{
+    width: 255px;
+    height: 50px;
+    border: none;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.2);
+    text-align: center;
+}
+
+.footer__button-button {
+    border: none;
+    width: 255px;
+    background-color: #d3c17f;
+    height: 50px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
